@@ -10,4 +10,3 @@ addBookBtn.addEventListener('click', () => {
 
 const todayDate = document.getElementById('date');
 todayDate.innerHTML = (`${DateTime.now().toLocaleString(DateTime.DATETIME_MED)}`);
-
