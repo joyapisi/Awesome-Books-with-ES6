@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Books</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header id="nav-header">
+    <nav>
+      <a class="logo">Awesome Books</a>
+      <div class="nav-list">
+        <a class="listLink" href="#" id="list-link">List</a>
+          <span class="vl">&#124</span>
+        <a class="addNewLink" href="#" id="add-new-link">Add New</a>
+          <span class="vl">&#124</span>
+        <a class="contactLink" href="#" id="contact-link">Contact</a>
+      </div>
+    </nav>  
+  </header>
+
+  <div class="date" id="date"></div>
+
+  <section class="books-list-section" id="books-list-section">
+    <h3 class="all-books" id="all-books">All Awesome Books</h3>
+    <div class="books-list" id="books-list">
+  </section>
+
+  <section class="add-book-section" id="add-book-section">
+    <h3 class="addbooktopic">Add a New Book</h3>
+    <form class="add-book">
+      <input type="text" placeholder="Title" id="title" class="local-storage">
+      <input type="text" placeholder="Author" id="author" class="local-storage">
+      <button type="submit" id="add-book-btn">Add</button>
+    </form>
+  </section>
+
+  <section class="contact" id="contact-us">
+    <h3>Contact Information</h3>
+    <p>Do you have any questions or you just want to say "hello" ? <br> 
+      You can reach out to us</p>
+    <ul>
+      <li>Our E-mail: mail@gmail.com</li>
+      <li>Our Phone number: 00456672363457</li>
+      <li>Our Address: Nakuru, Kenya</li>
+    </ul>
+  </section>
+
+  <footer>
+    <button class="copyright" type="submit">Copyright ...</button>
+  </footer>
+</body>
+<script src="./modules/navigation.js"></script>
+<script src="index.js" type="module"></script>
+<script src="https://cdn.jsdelivr.net/npm/luxon@3.3.0/build/global/luxon.min.js"></script>
+</html>
